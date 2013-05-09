@@ -22,6 +22,6 @@ rpm2cpio bash.rpm | cpio -diu   dpkg -x bash.deb $PWD
 
 
 
-http://cupcakecarnival.net/2009/02/17/debian-equivalent-rpm-based-system-commands
-http://wiki.debian.org/RPM
-https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora
+* http://cupcakecarnival.net/2009/02/17/debian-equivalent-rpm-based-system-commands
+* http://wiki.debian.org/RPM
+* https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora
