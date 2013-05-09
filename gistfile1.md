@@ -1,3 +1,4 @@
+```
 fedora              debian
 rpm -i foo.rpm      dpkg -i foo.deb
 rpm -e foo          dpkg -P foo
@@ -16,7 +17,7 @@ yum info foo        apt-cache show foo
 yum list available  apt-cache dumpavail
 
 rpm2cpio bash.rpm | cpio -diu   dpkg -x bash.deb $PWD
-
+```
 
 
 
