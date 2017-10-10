@@ -8,6 +8,7 @@
 | `rpm -qlp foo.rpm`    |                               | `dpkg -c foo.deb`             | `pacman -Ql -p foo.pkg.tar.xz`    |
 | `rpm -ql foo`         |                               | `dpkg -L foo`                 | `pacman -Ql foo`                  |
 | `rpm -qi foo`         |                               | `dpkg -p foo, dpkg -s foo`    | `pacman -Qi foo`                  |
+| `rpm -q --show-scripts foo` |                         | `dpkg-query --control-show foo postinst` |                        |
 | `rpm -qa`             | `yum list installed`          | `dpkg-query -W, dpkg --list`  | `pacman -Q`                       |
 | `rpm -qf /bin/bash`   | `yum whatprovides /bin/bash`  | `dpkg -S /bin/bash`           | `pacman -Qo /bin/bash`            |
 |                       | `yum search foo`              | `apt-cache search foo`        | `pacman -Ss foo`                  |
