@@ -13,7 +13,7 @@
 | `rpm -qf /bin/bash`   | `yum whatprovides /bin/bash`  | `dpkg -S /bin/bash`           | `pacman -Qo /bin/bash`            |
 |                       | `yum search foo`              | `apt-cache search foo`        | `pacman -Ss foo`                  |
 |                       | `yum list available`          | `apt-cache dumpavail`         | `pacman -Sl`                      |
-| `rpm2cpio bash.rpm` | `cpio -diu` |                     | `dpkg -x bash.deb $PWD`       | `tar -xzf bash.pkg.tar.xz`        |
+| `rpm2cpio bash.rpm \| cpio -diu` |                     | `dpkg -x bash.deb $PWD`       | `tar -xzf bash.pkg.tar.xz`        |
 
 * http://cupcakecarnival.net/2009/02/17/debian-equivalent-rpm-based-system-commands
 * http://wiki.debian.org/RPM
