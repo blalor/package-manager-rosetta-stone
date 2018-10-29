@@ -1,7 +1,7 @@
 | rpm                   | yum                           | debian                        | arch                              |
 |-----------------------|-------------------------------|-------------------------------|-----------------------------------|
 | `rpm -i foo.rpm`      |                               | `dpkg -i foo.deb`             | `pacman -U foo.pkg.tar.xz`        |
-|                       | `yum install foo`             | `apt-get install foo`         | `pacman -S`                       |
+|                       | `yum install foo`             | `apt-get install foo`         | `pacman -S foo`                   |
 | `rpm -e foo`          | `yum remove foo`              | `dpkg -P foo`                 | `pacman -R foo`                   |
 | `rpm -qip foo.rpm`    |                               | `dpkg -I foo.deb`             | `pacman -Qi -p foo.pkg.tar.xz`    |
 |                       | `yum info foo`                | `apt-cache show foo`          | `pacman -Si foo`                  |
